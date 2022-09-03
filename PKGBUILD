@@ -76,8 +76,8 @@ build() {
       --disable-werror
   )
   
-  export CFLAGS="-O2 -march=x86-64-v3 -mtune=alderlake -pipe"
-  export CXXFLAGS="-O2 -march=x86-64-v3 -mtune=alderlake -pipe"
+  export CFLAGS="-O3 -march=x86-64-v3 -mtune=alderlake -pipe"
+  export CXXFLAGS="-O3 -march=x86-64-v3 -mtune=alderlake -pipe"
 
   cd "$srcdir/glibc-build"
 
